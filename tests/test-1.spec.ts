@@ -7,4 +7,5 @@ test('test', async ({ page }) => {
   await page.getByTestId('royal_email').fill('test1');
   await page.getByTestId('royal_pass').click();
   await page.getByTestId('royal_pass').fill('test2');
+  
 });
